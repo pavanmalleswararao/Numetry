@@ -1,0 +1,17 @@
+/* CSS for Sprites */
+/* Example */
+.icon-service1 {
+    background-image: url('service-sprite.png');
+    background-position: 0 0;
+    width: 32px;
+    height: 32px;
+}
+
+.icon-service2 {
+    background-image: url('service-sprite.png');
+    background-position: -32px 0;
+    width: 32px;
+    height: 32px;
+}
+
+/* Add more sprite classes as needed */

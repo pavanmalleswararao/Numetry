@@ -1,0 +1,84 @@
+.bg-container{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/429/282/466/tropical-palm-tree-beach-ocean-sunlight-island-hd-wallpaper-preview.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.tourism-card{
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 5px;
+}
+.button{
+    height: 36px;
+    width: 138px;
+    background-color: #25b1cc;
+    color: white;
+    border-radius: 25px;
+    border-width: 0px;
+}
+.favourite-place-bg-container{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/93/Clock_Tower_-_Palace_of_Westminster%2C_London_-_May_2007.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.favourite-place-heading{
+    color: white;
+    font-size: 28px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 24px;
+}
+.favourite-place-card-container{
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 15px;
+}
+.favourite-place-card-heading{
+    color: #0f0e46;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 23px;
+}
+.favourite-place-card-description{
+    font-family: 'Roboto';
+    font-size: 13px;
+    color: #6c6b70;
+}
+.favourite-place-card-image{
+    width: 80px;
+    height: 100px;
+}
+.detailed-view-heading{
+    color: white;
+    font-size: 22px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding: 24px;
+}
+.detailed-view-bg-container{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdNUxhLCvQpHZ2YMeFSGO4B5fUCN5zluDIJ7GrsShlApOAi7dzkejSj8KYH4idZoUa-mw&usqp=CAU");
+    background-size: cover;
+    height: 100vh;
+}
+.detailed-view-card-container{
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+}
+.detailed-view-card-heading{
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 23px;
+    padding: 15px;
+}
+.detailed-view-card-description{
+    font-family: 'Roboto';
+    font-size: 13px;
+    color: #6c6b70;
+    padding: 15px;
+}

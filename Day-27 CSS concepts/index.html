@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Styling</title>
+<style>
+  /* Selectors Basic */
+  /* Selects all elements with class 'example' */
+  .example {
+    color: blue;
+  }
+
+  /* Combinational Selectors */
+  /* Selects all <a> elements inside <div> elements */
+  div a {
+    text-decoration: none;
+  }
+
+  /* Pseudo Selectors */
+  /* Selects the first child of each <div> element */
+  div:first-child {
+    background-color: lightgray;
+  }
+
+  /* Selects the first line of each <p> element */
+  p::first-line {
+    font-weight: bold;
+  }
+
+  /* Elements */
+  /* Styling specific elements */
+  h1 {
+    font-family: Arial, sans-serif;
+  }
+
+  /* Specificity */
+  /* Styles applied with higher specificity */
+  #unique-element {
+    color: red;
+  }
+
+  /* Inheritance */
+  /* Child elements inherit font-size from parent */
+  .parent {
+    font-size: 14px;
+  }
+
+  /* Box Model */
+  /* Applying margin and padding to an element */
+  .box {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  /* Fonts & Typography */
+  /* Custom font and text alignment */
+  body {
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+  }
+
+  /* Colors */
+  /* Setting background and text color */
+  .background {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+
+  /* Positioning */
+  /* Absolute positioning */
+  .absolute {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+
+  /* Units (absolute, relative) */
+  /* Using relative units */
+  .relative {
+    width: 50%;
+  }
+
+  /* Overflow */
+  /* Handling overflow */
+  .overflow {
+    overflow: scroll;
+  }
+
+  /* Float */
+  /* Float elements to the left */
+  .float-left {
+    float: left;
+  }
+
+  /* Display & Flex */
+  /* Using flexbox for layout */
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+</style>
+</head>
+<body>
+  <!-- HTML content -->
+  <div class="example">Example - Selectors Basic</div>
+  <div>
+    <a href="#">Link inside Div - Combinational Selectors</a>
+    <span>Text</span>
+  </div>
+  <div>
+    <p>First line - Pseudo Selectors</p>
+    <p>Second line</p>
+  </div>
+  <h1>Heading 1 - Elements</h1>
+  <div id="unique-element">Unique Element - Specificity</div>
+  <div class="parent">
+    <p>Child element - Inheritance</p>
+  </div>
+  <div class="box">Box Model</div>
+  <div class="background">Background Color</div>
+  <div class="absolute">Absolute Positioning</div>
+  <div class="relative">Relative Units</div>
+  <div class="overflow">Overflow</div>
+  <div class="float-left">Float Left</div>
+  <div class="container">
+    <div>Item 1 - Display & Flex</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+  </div>
+</body>
+</html>

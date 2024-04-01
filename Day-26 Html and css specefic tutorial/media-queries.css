@@ -1,0 +1,9 @@
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Styles for smaller screens */
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Add more media queries as needed */

@@ -1,0 +1,1 @@
+const obj2 = Object.create(proto);
