@@ -1,0 +1,49 @@
+hii sir, project title please
+
+deep learning for cervical cancer diagnosis: framwork, prospects, and unrestricted issues
+
+
+is this the original title?
+
+chaged title
+
+
+ok tell me the actual title
+
+deep learning in cervical cancer diagnosis: Architecture, opportunities, and open research challenges
+
+
+ok
+
+RULES AND REGULATIONS 
+  
+1. We accept the windows system with the configuration of i5 and above. 
+2. We will install Anaconda and Python in our version, so we will uninstall the existing software 
+related to Python the organization is not liable for any package, software or data loss. 
+3. Please don’t change the Anaconda or Python version after installation; we’re not responsible if 
+the project is not working. 
+4. Don’t upgrade, downgrade, or install new packages. 
+5. Reinstallation is chargeable and will be done based on our availability.  
+6. Please make sure there is at least 25 GB of space on the C-drive to install software. 
+7. Please check the execution of the project after we handover the laptop to you. After wards, if you 
+face any kind of error, management is not responsible.  
+8. If your project needs mysql software. We will uninstall the existing my sql. We are not 
+responsible for the data lost.  
+9. Installation of the software and code may take more than 2 hours, so plan accordingly. 
+10. We will uninstall the antivirus related software’s if its blocks the project setup.
+
+ok
+i accept
+
+thank you for the confirmation
+
+
+completed sir
+
+ok
+
+
+i am disconnecting
+
+ok
+
