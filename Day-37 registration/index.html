@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="registrationApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container" ng-controller="registrationController">
+  <h2>Registration Form</h2>
+  <form name="registrationForm" ng-submit="submitForm()">
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" ng-model="user.username" required>
+      <span class="error" ng-show="registrationForm.username.$dirty && registrationForm.username.$error.required">Username is required</span>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" ng-model="user.email" required>
+      <span class="error" ng-show="registrationForm.email.$dirty && registrationForm.email.$error.required">Email is required</span>
+      <span class="error" ng-show="registrationForm.email.$dirty && registrationForm.email.$error.email">Invalid email</span>
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" ng-model="user.password" required>
+      <span class="error" ng-show="registrationForm.password.$dirty && registrationForm.password.$error.required">Password is required</span>
+    </div>
+    <button type="submit" ng-disabled="registrationForm.$invalid">Register</button>
+  </form>
+
+  <div ng-if="isRegistered" class="success-message">
+    <p>Registration successful! Welcome, {{ user.username }}!</p>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
