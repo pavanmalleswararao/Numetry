@@ -1,38 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://img.freepik.com/free-vector/futuristic-background-design_23-2148503793.jpg?t=st=1713939388~exp=1713942988~hmac=10f2e552b0ce361ed95c25594dbc2e83159b586daf5333b99ad0b2781fb31c8a&w=996'); /* Add your background image URL here */
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 15%;
+  height: 25%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-top: 200px;
+  margin-left: 800px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Add background color with opacity */
+  padding: 20px;
+}
+
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
   color: white;
+  cursor: pointer;
+  outline: none;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #45a049;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
 }
