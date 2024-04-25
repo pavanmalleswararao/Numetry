@@ -1,0 +1,27 @@
+<!-- frontend/src/app/item/item.component.html -->
+
+<div>
+    <h2>All Items</h2>
+    <ul>
+      <li *ngFor="let item of items">{{ item.id }} - {{ item.name }}</li>
+    </ul>
+  </div>
+  
+  <div>
+    <h2>Selected Item</h2>
+    <p *ngIf="selectedItem">{{ selectedItem.id }} - {{ selectedItem.name }}</p>
+  </div>
+  
+  <div>
+    <input type="number" [(ngModel)]="itemId" placeholder="Enter Item ID">
+    <input type="text" [(ngModel)]="itemName" placeholder="Enter Item Name">
+  </div>
+  
+  <div>
+    <button (click)="getAllItems()">Get All Items</button>
+    <button (click)="getItemById()">Get Item by ID</button>
+    <button (click)="createNewItem()">Create New Item</button>
+    <button (click)="updateItem()">Update Item</button>
+    <button (click)="deleteItem()">Delete Item</button>
+  </div>
+  
