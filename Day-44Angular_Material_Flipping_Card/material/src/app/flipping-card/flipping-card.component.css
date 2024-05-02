@@ -1,0 +1,17 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .example-card {
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .example-card mat-card-header {
+    background: #64b5f6;
+    color: white;
+  }
+  
